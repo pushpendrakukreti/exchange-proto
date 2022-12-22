@@ -1,0 +1,151 @@
+.tradechart-buysell-buttons{
+	
+	/*z-index: 1;*/
+	position:absolute;
+  	top: 5px;
+  	left: 6px;
+  	height: 5em;
+  	padding:8px;
+  	color: #fff;
+  	background-color: #252d47;
+	/* border: 1px solid #34495e; */
+	/* border-radius: 5px;s */
+	border-bottom-right-radius: 5px;
+	width: 350px;
+}
+.tradechart-current{
+	position:absolute;
+	top: 5px;
+	left: 5px;
+	display: flex;
+	width: 80% !important;
+
+}
+
+
+.qt-box {
+	background-color: #1a1e30;
+	border-radius: 5px;
+	width: 190px;
+}
+
+.info{
+	margin-top: 65px;
+	width: 200px;
+	height: 56px;
+	padding: 5px 2px;
+}
+
+.info p {
+	padding: 10px;
+}
+
+.img-qt {
+	width: 30px;
+	padding: 2px;
+	margin-right: 7.5px;
+}
+
+article {
+	/* border: 2px solid green; */
+}
+
+.tradechart-current-icon{
+
+	border: 2px solid #34495e;
+	border-radius: 5px;
+	background-color: #252d47;
+	padding: 8px;
+	height: 3em;
+	color: #fff;
+    flex-grow: 0.2;
+	display: flex;
+
+}
+.price-change{
+	color: green;
+}
+.tradechart-current-price{
+
+
+	border: 2px solid #34495e;
+	border-radius: 5px;
+	background-color: #252d47;
+	padding: 8px;
+	margin-left: 4px;
+	height: 3em;
+	color: #fff;
+	flex-grow: 0.2;
+	display: flex;
+	justify-content: space-around;
+}
+.tradechart{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+}
+.chart-margin-lots{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.chart-margin-text{
+	color:green;
+}
+
+.lot {
+	margin: 5px;
+	font-weight: 200;
+	font-size: 13px;
+}
+
+.margin {
+	margin: 5px;
+	font-weight: 200;
+	font-size: 13px;
+}
+
+.quick-inputs {
+	height: 37px;
+	margin-top: -4px;
+}
+
+.margin-chart-container-small{
+background-color: #1a1e30;
+text-align: center;
+border-bottom-left-radius: 5px ;
+border-bottom-right-radius: 5px ;
+margin-top: -4px;
+padding-bottom: 5px;
+}
+.lots-margin-mini{
+	margin-top: -10px;
+	background-color: transparent;
+	
+}
+.decinc-btn .field{
+	width: 100% !important;
+	height: 100% !important;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.select-trade-item{
+	width: 20% !important;
+	z-index: 5;
+	text-align: center;
+}
+.selected-item{
+background-color: #34495e;
+}
+.stock-select{
+	background-color: #34495e;
+}
+.css-1sflke2-menu{
+	background-color: #34495e;
+
+}
+.trade-icon{
+	width: 28px;
+	height: 28px;
+}

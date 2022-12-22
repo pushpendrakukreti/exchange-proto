@@ -1,0 +1,210 @@
+.modal {
+  max-width: 400px;
+  margin: 1.75rem auto;
+}
+
+.two-div-row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  color: #fff;
+  margin-right: -25px;
+}
+.span-sl {
+  color: #fff;
+}
+.white-horizontal-line {
+  background: transparent;
+  height: 0px;
+  border: none;
+}
+
+.single-div-flex {
+  display: flex;
+  text-align: center;
+}
+.unit-btn {
+  background: #1a1e30 !important;
+  color: #fff !important;
+  width: 50%;
+  border-radius: 2px;
+  border: 0px;
+  height: 38px;
+}
+.lots-btn {
+  background: #fff !important;
+  color: #34495e !important;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  opacity: 1 !important;
+  height: 38px;
+}
+
+.buy-tab {
+  background: #1a1e30 !important;
+  color: #fff !important;
+  width: 50%;
+  border-radius: 2px;
+  border: 0px;
+  height: 38px;
+}
+.sell-tab {
+  background: #fff !important;
+  color: #1a1e30 !important;
+  width: 50%;
+  border: none;
+  border-radius: 2px;
+  opacity: 1 !important;
+  height: 38px;
+}
+
+.tab-shadow {
+  box-shadow: #587ee7 0px 13px 27px -5px, rgb(59 106 91 / 30%) 0px 8px 16px -8px;
+}
+
+input::placeholder {
+  color: #6f7dab;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none !important;
+}
+
+.lots-tab-btns {
+  color: #fff;
+}
+
+.utxt {
+  font-size: 12px;
+}
+
+.buy-button {
+  background: #27ca5d !important;
+  outline: #27ca5d !important;
+  padding: 15px;
+}
+.sell-button {
+  background: #e74b43 !important;
+  border: solid 1px #e74b43 !important;
+  padding: 15px;
+}
+.form-control .sl-dropdown {
+  background-color: #34495e !important;
+}
+
+select[name="SL"] {
+  height: 38px !important;
+}
+
+.buy-popup-header-detail {
+  color: #fff;
+  margin-left: 22px;
+}
+
+.modal-close {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.modal-close svg {
+  fill: #fff;
+}
+.modal-close:hover {
+  transform: rotateZ(90deg);
+}
+.lots-unit-status {
+  text-align: left;
+  padding: 10px 1px;
+}
+.order-row-col-clear {
+  top: 36px;
+  right: -15px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  width: 10px;
+  height: 10px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTAgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogc2tldGNodG9vbCA2MS4yICgxMDEwMTApIC0gaHR0cHM6Ly9za2V0Y2guY29tIC0tPgogICAgPHRpdGxlPjU1OTgyMEYxLUFGRjctNDg5RC05NzlDLUFBQzE3QTkwNjVBNDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggc2tldGNodG9vbC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV2VidHJhZGVyLURlc2t0b3AtRGFyay1WMy0tLU9wZW4tcG9zaXRpb24tMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExNDUuMDAwMDAwLCAtNDg5LjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiPgogICAgICAgICAgICA8ZyBpZD0iT1BFTi1QT1NJVElPTi1QT1BVUC0tLU5FVyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDc4LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9IlBvcHVwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3NjAuMDAwMDAwLCAxNDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9IlN0YWNrZWQtR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwLjAwMDAwMCwgOTAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJTTC1PbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDE0Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJJY29ucy9DbG9zZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzY1LjAwMDAwMCwgMzQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTUuODgzNzI3OTEsNS4wMDAwNzgxMiBMOS44MTYwOTgzNSwxLjA2NzAxNzkxIEMxMC4wNjA0NjcyLDAuODIyNjQ1OTY3IDEwLjA2MDQ2NzIsMC40Mjc2NTA5MDQgOS44MTYwOTgzNSwwLjE4MzI3ODk1OSBDOS41NzE3Mjk0NiwtMC4wNjEwOTI5ODYzIDkuMTc2NzM5MzMsLTAuMDYxMDkyOTg2MyA4LjkzMjM3MDQ0LDAuMTgzMjc4OTU5IEw0Ljk5OTM3NTAyLDQuMTE2MzM5MTcgTDEuMDY3MDA0NTcsMC4xODMyNzg5NTkgQzAuODIyNjM1Njg0LC0wLjA2MTA5Mjk4NjMgMC40Mjc2NDU1NTksLTAuMDYxMDkyOTg2MyAwLjE4MzI3NjY2OCwwLjE4MzI3ODk1OSBDLTAuMDYxMDkyMjIyNywwLjQyNzY1MDkwNCAtMC4wNjEwOTIyMjI3LDAuODIzMjcwOTU5IDAuMTgzMjc2NjY4LDEuMDY3MDE3OTEgTDQuMTE1NjQ3MTEsNS4wMDAwNzgxMiBMMC4xODMyNzY2NjgsOC45MzMxMzgzNCBDLTAuMDYxMDkyMjIyNyw5LjE3NzUxMDI4IC0wLjA2MTA5MjIyMjcsOS41NzI1MDUzNCAwLjE4MzI3NjY2OCw5LjgxNjg3NzI5IEMwLjMwNTE0ODYyMSw5LjkzODc1MDc3IDAuNDY1MTQ0NjIxLDEwIDAuNjI1MTQwNjIxLDEwIEMwLjc4NTEzNjYyMiwxMCAwLjk0NTEzMjYyMiw5LjkzODc1MDc3IDEuMDY3MDA0NTcsOS44MTY4NzcyOSBMNC45OTkzNzUwMiw1Ljg4MzgxNzA4IEw4LjkzMjk5NTQzLDkuODE2ODc3MjkgQzkuMDU0ODY3MzgsOS45Mzg3NTA3NyA5LjIxNDg2MzM4LDEwIDkuMzc0ODU5MzgsMTAgQzkuNTM0ODU1MzgsMTAgOS42OTQ4NTEzOCw5LjkzODc1MDc3IDkuODE2NzIzMzMsOS44MTY4NzcyOSBDMTAuMDYxMDkyMiw5LjU3MjUwNTM0IDEwLjA2MTA5MjIsOS4xNzc1MTAyOCA5LjgxNjcyMzMzLDguOTMzMTM4MzQgTDUuODgzNzI3OTEsNS4wMDAwNzgxMiBaIiBpZD0iRmlsbC0xIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 10px 10px;
+}
+.profit_and_loss {
+  color: #e74b43;
+}
+
+.asset-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.asset-info-col {
+  width: 50%;
+  padding: 10px;
+  flex: 0 0 50%;
+}
+.asset-info-col-inner {
+  border: 1px solid #6f7dab;
+  height: 100%;
+}
+.asset-info-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #6f7dab;
+}
+.asset-info-item-label {
+  opacity: 0.6;
+}
+.asset-info-item-value {
+  text-align: right;
+}
+
+.asset-info-col__full {
+  width: 100%;
+  flex: 0 0 100%;
+}
+.asset-info-col__full .asset-info-item-value {
+  margin: 0 -10px;
+}
+.asset-info-item-value {
+  text-align: right;
+}
+.asset-info-item-value-table2 {
+  width: 100%;
+}
+.market-hours {
+  text-align: left;
+  width: 100%;
+}
+.market-hours-row {
+  border-bottom: 1px solid #6f7dab;
+}
+.market-hours-col {
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 33.3333%;
+}
+.market-hours-row:last-child {
+  border-bottom: none;
+}
+.asset-info-item:last-child {
+  border-bottom: none;
+}
+.modal-content {
+  color: #fff !important;
+}

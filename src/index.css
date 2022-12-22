@@ -1,0 +1,101 @@
+html {
+  font-size: 14px;
+  font-family: "roboto-regular";
+  line-height: 1.42857143;
+}
+body {
+  margin: 0;
+  font-family: "roboto-regular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #34495e !important;
+  transition: all 0.2s ease-in-out;
+  font-family: "roboto-regular";
+  line-height: 1.42857143;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body,
+.background {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  background-color: #34495e;
+  display: block;
+  position: relative;
+  border-bottom: 1px solid #6f7dab;
+}
+::selection {
+  background: #3a4ee6;
+  color: #fff;
+}
+.background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  filter: brightness(50%);
+  background-size: 70%;
+  opacity: 0.1;
+  background-repeat: no-repeat;
+  background-position: center, center;
+}
+html,
+body,
+.background {
+  height: 100%;
+  width: 100%;
+}
+
+.group-stock-chart-type {
+  width: 50%;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.header-logo {
+  font-size: 22px;
+  color: white;
+  border: 5px solid white;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+
+.tile {
+  background-color: yellow;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  /* margin-bottom: 5px; */
+  box-sizing: border-box;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board > div {
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+}

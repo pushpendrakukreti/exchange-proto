@@ -1,0 +1,114 @@
+.chart-sell-buy-field-input {
+    width: 90%;
+    padding: 0;
+}
+.chart-sell-buy-field-input {
+    display: inline-block;
+    vertical-align: middle;
+    
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: 'roboto-bold';
+    color: #fff;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.field-dec {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    padding: 10px;
+}
+.field-inc{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+.field-dec {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxMnB4IiB2aWV3Qm94PSIwIDAgMTIgMTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogc2tldGNodG9vbCA2MS4yICgxMDEwMTApIC0gaHR0cHM6Ly9za2V0Y2guY29tIC0tPgogICAgPHRpdGxlPkUyMzZCMTA0LUVEODgtNDlCQy04NTE3LUYxQzZCMjkxRDY1NTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggc2tldGNodG9vbC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV2VidHJhZGVyLURlc2t0b3AtRGFyay1WMy0tLVBsYXRmb3JtLWFzc2V0LWxpc3QtYmlkZGVyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjcwLjAwMDAwMCwgLTU1Ni4wMDAwMDApIiBmaWxsPSIjQUFCN0UxIj4KICAgICAgICAgICAgPGcgaWQ9IkxFRlQtU0lERS0tLVJlc3BvbnNpdmUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCA3OC4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJCaWRkZXItbGVmdC0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMzQ1LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJTdGFja2VkLUdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4wMDAwMDAsIDcyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iTG90cyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDQ4LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI1MC4wMDAwMDAsIDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9IlVJL0J0bi9Db250cm9sbGVyLU9uIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikljb25zL01pbnVzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4wMDAwMDAsIDEzLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTcsNSBMNSw1IEwxLDUgQzAuNDQ4LDUgMCw1LjQ0OCAwLDYgQzAsNi41NTIgMC40NDgsNyAxLDcgTDUsNyBMNyw3IEwxMSw3IEMxMS41NTIsNyAxMiw2LjU1MiAxMiw2IEMxMiw1LjQ0OCAxMS41NTIsNSAxMSw1IEw3LDUgWiI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=);
+}
+.field-dec, .field-inc {
+    width: 25px;
+    height: 100%;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+/*.field__with-steps .field-value {
+    width: calc(100% - 50px);
+}*/
+.field-value input {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: arial, roboto-medium;
+}
+.field-inc {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxMnB4IiB2aWV3Qm94PSIwIDAgMTIgMTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogc2tldGNodG9vbCA2MS4yICgxMDEwMTApIC0gaHR0cHM6Ly9za2V0Y2guY29tIC0tPgogICAgPHRpdGxlPkY1NzdDN0I2LTNCNUMtNDNFMi1BNTBDLTBBNzY3Q0E1RDY1RTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggc2tldGNodG9vbC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV2VidHJhZGVyLURlc2t0b3AtRGFyay1WMy0tLVBsYXRmb3JtLWFzc2V0LWxpc3QtYmlkZGVyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzg4LjAwMDAwMCwgLTU1Ni4wMDAwMDApIiBmaWxsPSIjQUFCN0UxIj4KICAgICAgICAgICAgPGcgaWQ9IkxFRlQtU0lERS0tLVJlc3BvbnNpdmUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCA3OC4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJCaWRkZXItbGVmdC0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMzQ1LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJTdGFja2VkLUdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4wMDAwMDAsIDcyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iTG90cyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDQ4LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI1MC4wMDAwMDAsIDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9IlVJL0J0bi9Db250cm9sbGVyLU9uIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikljb25zL1BsdXMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyOC4wMDAwMDAsIDEzLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTcsNSBMNywxIEM3LDAuNDQ4IDYuNTUyLDAgNiwwIEM1LjQ0OCwwIDUsMC40NDggNSwxIEw1LDUgTDEsNSBDMC40NDgsNSAwLDUuNDQ4IDAsNiBDMCw2LjU1MiAwLjQ0OCw3IDEsNyBMNSw3IEw1LDExIEM1LDExLjU1MiA1LjQ0OCwxMiA2LDEyIEM2LjU1MiwxMiA3LDExLjU1MiA3LDExIEw3LDcgTDExLDcgQzExLjU1Miw3IDEyLDYuNTUyIDEyLDYgQzEyLDUuNDQ4IDExLjU1Miw1IDExLDUgTDcsNSBaIiBpZD0iSWNvbnMvQWRkLWdyYXBoIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==);
+}
+
+.field-inc {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    padding: 10px;
+
+}
+.field__with-steps{
+    display: flex;
+    justify-content: space-around;
+  border-bottom: 1px solid #34495e;
+}
+.field {
+    background-color: #1a1e30;
+    border-radius: 3px;
+    font-size: 0;
+    height: 38px;
+    transition: all 0.3s;
+    width: 79%
+}
+.chart-sell-buy-fields
+{
+    display: flex;
+   justify-content: space-around;
+}
+.chart-sell-buy-field__margin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right:3px;
+}
+.checkbox label{
+    display: flex;
+
+}
+.checkbox label input{
+ margin-right: 3px;
+}
+.chart-sell-buy-field-input.money {
+    display: inline-block;
+    text-align: left;
+}
+.chart-sell-buy__full .chart-sell-buy-field__margin .chart-sell-buy-field-label {
+    max-width: 80px;
+}
+.chart-sell-buy-field-label {
+    
+    vertical-align: middle;
+    
+    padding-right: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'roboto-bold';
+}
+

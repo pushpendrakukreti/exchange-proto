@@ -1,0 +1,62 @@
+.buy-button{
+	background-color: #27ca5d !important;;
+	width: 45%;
+    text-align: center;
+    font-size: 15px;
+    font-family: roboto-bold;
+    text-transform: uppercase;
+    line-height: 1em;
+    border-radius: 5px;
+    color: #fff;
+    background: #27ca5d !important;
+    border: solid 1px #27ca5d!important;
+
+}
+.btn-primary:hover {
+    color: inherit;
+    background-color: inherit;
+    border-color: inherit;
+}
+.sell-button{
+	background-color: #e74b43 !important;
+	width: 45%;
+	font-size: 15px;
+    font-family: roboto-bold;
+    text-transform: uppercase;
+    line-height: 1em;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.mobile-buy-button{
+	background-color: #3bd976 !important;
+    width: 90%;
+     margin-right: 5px;
+     margin-left: 5px;
+}
+.mobile-sell-button{
+	background-color: #e74b43 !important;
+	    width: 90%;
+	    margin-right: 5px;
+	    margin-left: 5px;
+}
+
+.modal-content{
+	background-color: #34495e;
+}
+.modal-footer{
+	border-top: 1px solid #34495e;
+}
+
+.curency-icon{
+	height: 44px;
+	width: 44px;
+}
+.buy-popup-header{
+	display: flex;
+	justify-content: flex-start;
+}
+.buy-popup-header-detail{
+	display: flex;
+	flex-direction: column;
+}

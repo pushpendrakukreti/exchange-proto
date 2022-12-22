@@ -1,0 +1,71 @@
+.app-header {
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 20px;
+}
+.logo-image{
+	max-width: 155px;
+	}
+.header-right {
+    flex: 1;
+}
+
+.header-right-inner {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-balances {
+    display: flex;
+    color: #fff;
+}
+.header-balances-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+    padding: 14px 0;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.header-balances-item-title {
+    font-size: 12px;
+    font-family: roboto-light;
+    line-height: 1em;
+    margin-bottom: 9px;
+}
+.header-logo > a {
+    cursor: default;
+}
+.header-balances-item .balance {
+    font-family: 'roboto-medium';
+    font-size: 14px;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+.header-navigation .settings__opened{
+}
+.header-navigation-item__user {
+    margin-left: 0;
+    padding-left: 0;
+}
+.settings {
+    position: relative;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+

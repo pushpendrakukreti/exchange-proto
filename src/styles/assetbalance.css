@@ -1,0 +1,52 @@
+.asset-balance {
+    padding: 10px 5px;
+    width: 100.5%;
+}
+
+
+input:focus, textarea:focus, select:focus, 
+input::-moz-focus-inner, textarea:focus::-moz-focus-inner, select:focus::-moz-focus-inner{
+    outline: none;
+}
+
+
+.asset-balance-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0;
+    padding: 10px 0px;
+}
+.asset-balance-label {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    font-family: roboto-bold;
+    color: #fff;
+    width: 20%;
+}
+.asset-balance-indicator {
+    border-radius: 6px;
+    height: 4px;
+    overflow: hidden;
+    font-size: 0;
+}
+.asset-balance-indicator-item__sell {
+    background-color: #e74b43;
+    height: 3px;
+    width: 29%;
+}
+.asset-balance-indicator-item {
+    display: inline-block;
+ 
+}
+
+.asset-balance-indicator-item__buy {
+    background-color: #27ca5d;
+    height: 3px;
+    width: 71%;
+}
+.asset-balance-buyer{
+    margin-right: 2%;
+}
+

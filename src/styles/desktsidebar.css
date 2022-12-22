@@ -1,0 +1,165 @@
+
+.settings-account .account::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 1px;
+    background-color: rgba(255,255,255,0.5);
+}
+.settings-account .account-info {
+    display: block;
+    margin: 0;
+    text-align: left;
+    padding: 10px 15px;
+        padding-bottom: 10px;
+    padding-bottom: 0;
+}
+.account-info {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.account-switch, .account-info, .account-deposit {
+    display: inline-block;
+    vertical-align: middle;
+}
+a {
+    cursor: pointer;
+    color: #fff;
+}
+a {
+    background-color: transparent;
+}
+
+
+
+ 
+.settings-account .account-deposit a {
+    display: block;
+    text-align: center;
+}
+.header-navigation .button {
+    font-size: 16px;
+    padding: 13px 30px;
+    font-family: roboto-regular;
+    line-height: 1em;
+    border-radius: 3px;
+    background-color: #27ca5d;
+    color: #fff;
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+.settings-item-control {
+    font-size: 0;
+    display: block;
+    text-align: left;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.3s;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+i.language-flag >img{
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+   
+}
+.language-list-item {
+    display: flex;
+    padding:4px;
+
+}
+.language-list-item .language-flag{
+    flex:30%;
+    display: grid;
+
+}
+.language-list-item span{
+     flex:70%;
+}
+.language-toggle{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s;
+}
+.language-list__open .language-toggle::after {
+ transform: translateY(-50%) rotate(-90deg);
+    
+}
+.language-list__open .language-list__static {
+    visibility: visible;
+}
+.language-list__open {
+    visibility: hidden;
+}
+.language-toggle::before {
+    left: 10px;
+    width: 21px;
+    height: 22px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.language-toggle::after {
+    right: 10px;
+    width: 12px;
+    height: 8px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCA4IDYiPgogICAgPHBhdGggZmlsbD0iI0FBQjdFMSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNi44NDcuMjFMNCAzLjY5MyAxLjE1My4yMWEuNjY2LjY2NiAwIDEgMC0uOTczLjkxMWwzLjMzNCA0YS42NjcuNjY3IDAgMCAwIC45NzIgMGwzLjMzNC00YS42NjYuNjY2IDAgMSAwLS45NzMtLjkxMXoiLz4KPC9zdmc+Cg==);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+
+.language-toggle::after, .language-toggle::before {
+    content: '';
+    display: block;
+    position: absolute;
+   
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.3s;
+}
+.language-list{
+    display: flex;
+    justify-content: flex-start;
+}
+.profile-language-ul{
+    list-style: none;
+}
+.settings-ul{
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0px;
+
+}
+.settings-ul .sidebar-icon{
+    padding: 4px;
+}
+.settings-ul li{
+   padding: 12px 20px; 
+   cursor: pointer;
+}
+
+.settings-ul li:hover  {
+     background-color: #445280bb;
+ }
