@@ -1588,8 +1588,8 @@ export const profileSlice = createSlice({
   name: "profile",
   initialState: {
     profile: {
-      full_name: "priya joshi",
-      email: "priyajoshi.pj.22@gmail.com",
+      full_name: "pushpendra kukreti",
+      email: "kukretipushpendra@gmail.com",
       phone: "+91-999999999",
       currency: "INR",
       country: "INDIA",
